@@ -63,10 +63,10 @@ class Planet extends Phaser.GameObjects.Container {
  */
 function preload ()
 {
-	this.load.image('sky', '/assets/sprites/space.png');
-	this.load.image('earth', '/assets/sprites/earth.png');
-	this.load.image('moon', 'assets/sprites/moon.png');
-	this.load.image('sun', 'assets/sprites/sun.png');
+	this.load.image('sky', 'sprites/space.png');
+	this.load.image('earth', '/sprites/earth.png');
+	this.load.image('moon', './sprites/moon.png');
+	this.load.image('sun', '../sprites/sun.png');
 }
 
 /**
